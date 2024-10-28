@@ -1,0 +1,116 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/back.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    padding-bottom: 800px; /* Space at the bottom to accommodate footer */
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(213, 52, 219, 0.6); /* Header background color with transparency */
+    color: white; /* Header text color */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 15px; /* Space between logo and buttons */
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Position at the very top */
+    width: 100%; /* Full-width header */
+    z-index: 1000; /* Keep it above other content */
+}
+
+/* Logo Styles */
+.logo {
+    height: 70px; /* Increased logo size */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and buttons */
+}
+
+/* Header Button Styles */
+.header-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.header-buttons button {
+    background-color: #b929ad; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px; /* Standard padding for buttons */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.header-buttons button:hover {
+    background-color: #1f6398; /* Darker shade on hover */
+}
+
+/* Header Email Styles */
+h1 {
+    font-size: larger;
+    font-style: normal;
+    color: #333333;
+    margin-left: auto; /* Push email to the far right */
+    padding-right: 100px; /* Space between header and email */
+    align-self: flex-start; /* Align email in header */
+    margin-top: 30px; /* Space above email */
+}
+
+.header-email a {
+    color: black; /* Keep the text color black */
+    text-decoration: none; /* Removes underline from link */
+}
+
+.header-email a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+/* General Button Styles */
+button {
+    background-color: #b929adb6; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Space between buttons */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #1f6398; /* Darker shade on hover */
+}
+
+/* Content Section Styles */
+.content {
+    padding: 20px;
+    display: none; /* Hide all content sections by default */
+    margin-top: 80px; /* Space for the fixed header */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center; /* Center text in footer */
+    padding: 10px 0; /* Vertical padding for footer */
+    position: fixed; /* Keep footer at the bottom */
+    width: 100%; /* Full-width footer */
+    bottom: 0; /* Position at the bottom */
+}
+
+/* Target Div Styles (if needed) */
+#target-div {
+    margin-top: 20px; /* Space above the target div */
+    padding: 20px; /* Padding for the target div */
+    background-color: #f0f0f0; /* Light background for visibility */
+    border: 1px solid #ddd; /* Light border for separation */
+}

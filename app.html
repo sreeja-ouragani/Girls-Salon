@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Salon</title>
+    <link rel="stylesheet" href="app.css"/> <!-- Link to the CSS file -->
+    <script src="app.js" defer></script> <!-- Link to the external JavaScript file -->
+</head>
+<body>
+    <header>
+        <a href="app.html"> <!-- Link to the main page -->
+            <img src="images/log.jpg" alt="Salon Logo" class="logo"/> <!-- Logo Image -->
+        </a>
+        <div class="header-buttons">
+            <button onclick="showContent('services')">Services</button>
+            <button onclick="showContent('book-appointment')">Book Appointment</button>
+            <button onclick="showContent('salon')">Salon</button>
+            <button onclick="showContent('feedback')">Feedback</button>
+        </div>
+        <h1 class="header-email">
+            <a href="mailto:girlssalon@gmail.com">📧 : girlssalon@gmail.com</a>
+        </h1>
+    </header>
+
+    <br>
+
+    <div id="services" class="content">
+        <h2>Our Services</h2>
+        <p>We offer a variety of beauty services including haircuts, coloring, styling, and more.</p>
+    </div>
+
+    <div id="book-appointment" class="content">
+        <h2>Book an Appointment</h2>
+        <p>Please contact us to schedule your appointment.</p>
+    </div>
+
+    <div id="salon" class="content">
+        <h2>About Our Salon</h2>
+        <p>Welcome to our salon, where we provide top-notch beauty treatments.</p>
+    </div>
+
+    <div id="feedback" class="content">
+        <h2>Feedback</h2>
+        <p>We value your feedback. Please let us know how we did!</p>
+    </div>
+
+    <div class="footer">
+        © 2024 Your Company. All rights reserved.
+    </div>
+</body>
+</html>
